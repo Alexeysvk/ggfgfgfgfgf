@@ -1,11 +1,13 @@
+import Feedback from "components/Feedback/Feedback";
+import Statistic from "components/Statistics/Statistics";
 
-import Cart from "container/cart";
 
 
 export const App = () => {
   return (
-    <div className="cart-input-form"> 
-    <Cart />
+    <div > 
+      <Feedback />
+      <Statistic />
     </div>
   );
 };
